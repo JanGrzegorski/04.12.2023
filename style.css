@@ -1,0 +1,126 @@
+body,html{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: crimson;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    font-size: 25px;
+}
+.lewa{
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+    
+}
+.lewa img{
+    width: calc(50% - 30px)!important;
+    padding: 15px;
+}
+nav{
+    width: 20%;
+    float: left;
+    background-color: aliceblue;
+    height: 100%;
+}
+
+article img{
+    width: 100%;
+    height:100px;
+}
+.contener2{
+    height: 50%;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+ 
+ }
+ .contener1{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 100%;
+
+ }
+.box1{
+    border: 2px solid black;
+
+ }
+.gora ,.dol{
+ height: 50%;
+ }
+
+footer{
+    background-color: blueviolet;
+    padding: 30px 0 30px 0;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+.lewa img{
+width: 200px;
+height: 100px;
+}
+.prawa{
+    width: 20%;
+}
+article p{
+    padding:5px;    
+    
+}
+.sidebar{
+    width: 20%;
+    float: right;
+    text-align: center;
+    background-color: antiquewhite;
+    height: 100%;
+    
+}
+main{
+    display: flex;
+    width: 60%;
+    float: left;
+    background-color: azure;
+    height: 100%;
+}
+.burton{
+    display: flex;
+    justify-content: end;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+ }
+ a{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 2px solid black;
+}
+@media screen and (min-width: 426px) and (max-width: 768px){
+    nav{
+        width:15%;
+    }
+    article{
+        max-width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+    }
+
+}
+@media screen and (max-width: 425px){
+    nav{
+        width: 100%;
+    }
+    article{
+        width: 100%;
+    }
+    .sidebar{
+        width: 100%;
+    }
+}
